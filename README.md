@@ -18,7 +18,18 @@ Bike share data is retrived from the individual provider's website in CSV format
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Washington, DC (Capital Bikeshare): https://www.capitalbikeshare.com/system-data
 
+More bike share data will be uploaded as it is collected.
+
 ## Bike Counter Data
 Data for bicycle counters are generally taken from the municipality's website and accessed through an API. The links to each city's bike counter data is listed below.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; New York City, NY: https://data.cityofnewyork.us/Transportation/Bicycle-Counts/uczf-rk3c
+
+More bike counter data will be uploaded as it is collected.
+
+## Weather Data
+Weather data is also included in this repository since no analysis of bike ridership is complete without detailed weather data to use as controls. Below are the links to the weather data sources.
+
+No weather data has bee added yet. 
+
+More weather data will be uploaded as it is collected.
