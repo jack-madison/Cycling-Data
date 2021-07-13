@@ -17,3 +17,8 @@ Bike share data is retrived from the individual provider's website in CSV format
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Philadelphia, PA (Indego): https://www.rideindego.com/about/data/
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Washington, DC (Capital Bikeshare): https://www.capitalbikeshare.com/system-data
+
+## Bike Counter Data
+Data for bicycle counters are generally taken from the municipality's website and accessed through an API. The links to each city's bike counter data is listed below.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; New York City, NY: https://data.cityofnewyork.us/Transportation/Bicycle-Counts/uczf-rk3c
