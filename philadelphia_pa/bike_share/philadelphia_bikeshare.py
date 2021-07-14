@@ -14,7 +14,7 @@ philadelphia_bikeshare = pd.DataFrame(columns=['date', 'ride_count'])
 
 #Import each dataset and then resample and append to an aggregate dataset
 for x in names:
-    df = pd.read_csv("./philadelphia_pa/system_data/" + str(x) + ".csv")
+    df = pd.read_csv("./philadelphia_pa/bike_share/system_data/" + str(x) + ".csv")
     df['ride_count'] = 1
     df['date_i'] = pd.to_datetime(df['start_time'])
     df = df.resample('D', on = 'date_i').sum()
@@ -26,4 +26,4 @@ for x in names:
 print("Done!")
 
 #Export the daily counts as a csv
-philadelphia_bikeshare.to_csv("./philadelphia_pa/philadelphia_daily_bikeshare.csv", index = False)
+philadelphia_bikeshare.to_csv("./philadelphia_pa/bike_share/philadelphia_daily_bikeshare.csv", index = False)

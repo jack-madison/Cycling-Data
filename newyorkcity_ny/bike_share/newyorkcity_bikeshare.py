@@ -17,7 +17,7 @@ nyc_bikeshare = pd.DataFrame(columns=['date', 'ride_count'])
 #Import each dataset and then resample and append to an aggregate dataset
 for x in names:
     try:
-        df = pd.read_csv("./newyorkcity_ny/system_data/" + str(x) + ".csv")
+        df = pd.read_csv("./newyorkcity_ny/bike_share/system_data/" + str(x) + ".csv")
         df['ride_count'] = 1
         df['date_i'] = pd.to_datetime(df['starttime'])
         df = df.resample('D', on = 'date_i').sum()
@@ -26,7 +26,7 @@ for x in names:
         df.reset_index(drop=True, inplace=True)
         nyc_bikeshare = nyc_bikeshare.append(df, ignore_index = True)
     except:
-        df = pd.read_csv("./newyorkcity_ny/system_data/" + str(x) + ".csv")
+        df = pd.read_csv("./newyorkcity_ny/bike_share/system_data/" + str(x) + ".csv")
         df['ride_count'] = 1
         df['date_i'] = pd.to_datetime(df['started_at'])
         df = df.resample('D', on = 'date_i').sum()
@@ -37,4 +37,4 @@ for x in names:
 print("Done!")
 
 #Export the daily counts as a csv
-nyc_bikeshare.to_csv('./newyorkcity_ny/nyc_daily_bikeshare.csv', index = False)
+nyc_bikeshare.to_csv('./newyorkcity_ny/bike_share/nyc_daily_bikeshare.csv', index = False)
