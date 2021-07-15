@@ -24,6 +24,6 @@ Los_Angeles_weatherdata['Average_daily_tempeture(C)'] = (Los_Angeles_weatherdata
 Los_Angeles_weatherdata
 
 #Export the daily counts as a csv
-Los_Angeles_weatherdata.to_csv('./Los_Angeles_weatherdata.csv', index = False)
+Los_Angeles_weatherdata.to_csv('./losangeles_ca/weather_data/losangeles_daily_weather_data.csv', index = False)
 
 

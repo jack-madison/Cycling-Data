@@ -24,5 +24,5 @@ SAN_FRANCISCO_weatherdata['Average_daily_tempeture(C)'] = (SAN_FRANCISCO_weather
 SAN_FRANCISCO_weatherdata 
 
 #Export the daily counts as a csv
-SAN_FRANCISCO_weatherdata.to_csv('./Los_Angeles_weatherdata.csv', index = False)
+SAN_FRANCISCO_weatherdata.to_csv('./bayarea_ca/weather_data/bayarea_daily_weather_data.csv', index = False)
 

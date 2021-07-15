@@ -20,4 +20,4 @@ BOSTON_weatherdata['Maximum_daily_tempeture(C)'] = (BOSTON_weatherdata['Maximum_
 BOSTON_weatherdata['Minimum_daily_tempeture(C)'] = (BOSTON_weatherdata['Minimum_daily_tempeture(F)'] -30)*5/9 
  
 #Export the daily counts as a csv
-BOSTON_weatherdata.to_csv('./BOSTON_weatherdata.csv', index = False)
+BOSTON_weatherdata.to_csv('./boston_ma/weather_data/boston_daily_weather_data.csv', index = False)
