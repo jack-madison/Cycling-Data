@@ -23,4 +23,4 @@ CHICAGO_weatherdata1
 
 
 #Export the daily counts as a csv
-CHICAGO_weatherdata.to_csv('./CHICAGO_deaily_weather_data.csv', index = False)
+CHICAGO_weatherdata1.to_csv('./CHICAGO_deaily_weather_data.csv', index = False)
