@@ -1,8 +1,12 @@
+import requests
+import numpy as np
+from datetime import datetime
+
 #Create an empty dataframe to append the daily counts to
 Washington_weatherdata = pd.DataFrame(columns=['date', 'Snow', 'Precipitation_per_day(mm)', 'Average_daily_tempeture(F)','Maximum_daily_tempeture(F)','Minimum_daily_tempeture(F)'])
  
 #Import each dataset and then resample and append to an aggregate dataset
-url = "https://www.ncei.noaa.gov/orders/cdo/2651235.csv"
+url = "https://www.ncei.noaa.gov/orders/cdo/2651267.csv"
 df = pd.read_csv(url)
 df["TAVG"]= df[['TMAX','TMIN']].mean(axis=1)
 df = df[['DATE'] + ['SNOW'] + ['PRCP'] + ['TAVG']+['TMAX']+['TMIN']]
