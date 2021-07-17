@@ -21,4 +21,4 @@ PHILADELPHIA_weatherdata['Average_daily_tempeture(C)'] = (PHILADELPHIA_weatherda
 PHILADELPHIA_weatherdata
 
 #Export the daily counts as a csv
-PHILADELPHIA_weatherdata.to_csv('./PHILADELPHIA_deaily_weather_data.csv', index = False)
+PHILADELPHIA_weatherdata.to_csv('./philadelphia_pa/weather_data/philadelphia_daily_weather_data.csv', index = False)

@@ -22,4 +22,4 @@ New_York_weatherdata
 
 
 #Export the daily counts as a csv
-New_York_weatherdata.to_csv('./New_York_weatherdata.csv', index = False)
+New_York_weatherdata.to_csv('./newyorkcity_ny/weather_data/newyork_daily_weather_data.csv', index = False)

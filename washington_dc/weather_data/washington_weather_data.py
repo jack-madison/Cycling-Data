@@ -24,5 +24,5 @@ Washington_weatherdata['Average_daily_tempeture(C)'] = (Washington_weatherdata['
 Washington_weatherdata
 
 #Export the daily counts as a csv
-Washington_weatherdata.to_csv('./Washington_deaily_weather_data.csv', index = False)
+Washington_weatherdata.to_csv('./washington_dc/weather_data/washington_daily_weather_data.csv', index = False)
 
