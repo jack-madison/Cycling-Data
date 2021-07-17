@@ -30,6 +30,6 @@ More bike counter data will be uploaded as it is collected.
 ## Weather Data
 Weather data is also included in this repository since no analysis of bike ridership is complete without detailed weather data to use as controls. Below are the links to the weather data sources.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No weather data has been added yet. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USA Cities: https://www.ncei.noaa.gov/
 
 More weather data will be uploaded as it is collected.
